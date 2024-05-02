@@ -1,0 +1,36 @@
+
+.principal{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin:20px 0px;
+}
+.imagen_diente_pelota{
+    height: 50px;
+}
+.titulo_madent{
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+}
+@media(min-width:768px){
+
+    .imagen_diente_pelota{
+        height: 100px;
+    }
+    .titulo_madent{
+        font-size: 100px;
+    }
+
+}
+@media(min-width:1440px){
+    .imagen_diente_pelota{
+        height: 200px;
+    }
+    .titulo_madent{
+        font-size: 150px;
+    }
+
+}
